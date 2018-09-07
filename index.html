@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Hangman</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<div class="container">
+	<div class="jumbotron">
+		<h1>The Tastiest of Hangman Games!</h1>
+		<p>Let's Guess Some Foods!</p>
+		<img src="http://www.easyhomemeals.com/wp-content/uploads/2017/10/500X300_0002_7-Layer-Fiesta-Nachos_1749073056.png" alt="Plate of Nachos">
+	</div>
+	<div class="card">
+			<div class="card-heading">
+				<h3 class="card-title">
+					Name of the Food
+				</h3>
+			</div>
+			<div class="card-body">
+				<h2 id="wordToGuess">_ _ _ _ _ _</h2>
+			</div>
+		</div>
+		
+		<div class="card">
+			<div class="card-body">
+			Wrong Guesses: <span id="wrongGuesses"></span>
+			</div>
+		</div>
+		
+		<div class="card">
+			<div class="card-body">
+				Guesses Left: <span id="numGuesses">9</span>
+			</div>
+		</div>
+		
+		<div class="card">
+			<div class="card-body">
+				Win Counter: <span id="winCounter">0</span>
+			</div>
+		</div>
+			
+		<div class="card">
+			<div class="card-body">
+				Loss Counter: <span id="lossCounter">0</span>
+			</div>
+		</div>
+
+</div>
+</body>
+
+<script src="assets/javascript/logic.js"></script>
+
+</html>
